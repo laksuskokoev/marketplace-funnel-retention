@@ -1,0 +1,9 @@
+{
+  "synthetic_data": true,
+  "users": 8000,
+  "events": 27314,
+  "signup_to_purchase_conversion_7d": 0.162875,
+  "largest_funnel_loss_stage": "add_to_cart",
+  "day7_retention": 0.031375,
+  "observation_end": "2026-10-21 23:59:59"
+}
