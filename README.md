@@ -1,8 +1,8 @@
 # Marketplace Funnel & Retention Analytics
 
-**Product / Data Analytics portfolio project | Python · SQL (PostgreSQL) · pandas · matplotlib · pytest**
+**Product analytics case study | Python · SQL (PostgreSQL) · pandas · matplotlib · pytest**
 
-> **Important:** 100% synthetic data, generated deterministically for education. No real marketplace, customers, or measured business impact is claimed.
+> **Data:** Fully synthetic, deterministically generated observations. Results describe a simulated marketplace and do not represent actual customers or measured business impact.
 
 ## Business question
 A marketplace attracts new users, but which stages of onboarding prevent them from purchasing? How does user retention change, and which acquisition channels show stronger conversion? The goal is to provide a reproducible diagnostic report and a set of testable product hypotheses.
@@ -51,11 +51,10 @@ data/events_synthetic.csv           Event-level simulated dataset
 src/generate_data.py                Reproducible generator
 src/analysis.py                     Metrics and visualizations
 sql/analysis.sql                    PostgreSQL queries
-notebooks/walkthrough.ipynb         Guided analyst notebook
+notebooks/walkthrough.ipynb         Reproducible analysis notebook
 figures/                            Pre-generated charts
 reports/                            CSV summaries, JSON summary, findings
 reports/findings_ru.md              Business interpretation (Russian)
-docs/project_story_ru.md            Interview narrative and questions
 tests/test_analysis.py              Automated checks
 requirements.txt                    Dependencies
 ```
@@ -66,4 +65,3 @@ requirements.txt                    Dependencies
 - Exact-day retention is intentionally stricter than the often-used week-N retention.
 - SQL stage-presence query and Python step-order logic are different metrics: do not compare them without matching definitions.
 
-For an interview story, see [`docs/project_story_ru.md`](docs/project_story_ru.md).
