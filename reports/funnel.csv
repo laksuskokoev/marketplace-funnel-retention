@@ -1,0 +1,6 @@
+stage,users,share_of_signups,step_conversion
+signup,8000,1.0,1.0
+view_item,6457,0.807125,0.807125
+add_to_cart,3167,0.395875,0.4904754529967477
+begin_checkout,2183,0.272875,0.689295863593306
+purchase,1303,0.162875,0.5968850206138342
